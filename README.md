@@ -13,6 +13,7 @@ Kei: `{Kei}`, `{케이}`, `{5}`
 JIN: `{JIN}`, `{명은}`, `{6}`  
 류수정: `{류수정}`, `{수정}`, `{7}`  
 정예인: `{정예인}`, `{예인}`, `{8}`  
+If you put multiple names separated by commas, each character is colored alternatingly.
 ## 3. Example
 ```
 {수정}기억 속 널 삼킨다
@@ -47,4 +48,14 @@ Stop it}}} {{{#8F28BD (All day long)}}}
 {{{#31CED2 Let me down down
 Stop it down down stop it}}}
 {{{#4EC32A 영원히 널 모두 잊는다}}}
+```
+With multiple names,
+```
+{미주,지수}널 보지 못하는 꽃처럼
+다 시들어질까
+```
+will be converted to
+```
+{{{#FF7D91 널}}} {{{#8F28BD 보}}}{{{#FF7D91 지}}} {{{#8F28BD 못}}}{{{#FF7D91 하}}}{{{#8F28BD 는}}} {{{#FF7D91 꽃}}}{{{#8F28BD 처}}}{{{#FF7D91 럼}}}
+{{{#8F28BD 다}}} {{{#FF7D91 시}}}{{{#8F28BD 들}}}{{{#FF7D91 어}}}{{{#8F28BD 질}}}{{{#FF7D91 까}}}
 ```
